@@ -9,6 +9,7 @@ public static void main(String[] args) {
 	WebDriver dev=new ChromeDriver();
 	dev.get("https://www.youtube.com");
 	dev.manage().window().maximize();
+	System.out.println("success");
 	dev.quit();
 }
 }
